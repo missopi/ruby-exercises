@@ -11,7 +11,7 @@ RSpec.describe 'Predicate Enumerable Exercises' do
     end
 
     # remove the 'x' from the line below to unskip the test
-    xit 'returns true when espresso is included' do
+    it 'returns true when espresso is included' do
       drink_list = ["milk", "juice", "espresso"]
       expect(coffee_drink?(drink_list)).to be true
     end
